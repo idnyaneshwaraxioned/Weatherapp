@@ -181,6 +181,11 @@ figure {
   margin: 0 auto;
 }
 
+.city {
+  margin: 35px 0;
+  font-size: 35px;
+  font-weight: bold;
+}
 /*=================================
   main styling ends here
 =================================*/
