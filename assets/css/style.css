@@ -116,9 +116,10 @@ main, .input {
   flex-direction: column;
 }
 main h1 {
-  margin: 20px 0;
+  margin: 5px 0;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 .input input {
