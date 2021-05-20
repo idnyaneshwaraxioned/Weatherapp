@@ -103,52 +103,72 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
+main, .input {
+  padding: 20px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input input {
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  outline: none;
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.btn {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #000;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+  font-size: 20px;
+  color: #fff;
+  background-color: #245680;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+  transition: .3s;
+}
+
+.btn:hover { 
+  color: #358acf;
+  background-color: #fff;
+  box-shadow: none;
+ }
+
+.weater-content {
+  width: 20%;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f87c56;
+  box-shadow: 5px 5px 10px rgba(0,0,0,.5);
+}
+
+.weater-content span {
+  margin: 10px 0;
+  font-size: 20px;
+}
 
 
-
-
-
-
-
+figure {
+  width: 100px;
+  height: 100px;
+}
 
 /*=================================
   main styling ends here
 =================================*/
-
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
