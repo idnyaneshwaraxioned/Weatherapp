@@ -34,8 +34,8 @@ const weather = () => {
 								<figure>
 										<img src="http://openweathermap.org/img/wn/${iconCode}@2x.png" alt="weather">
 								</figure>
-								<span>${inputval.toUpperCase()}<span>
-								<span>${convertTemp}&#8451, ${item.weather[0].main}<span>
+								<p>${inputval.toUpperCase()}<p>
+								<p>${convertTemp}&#8451, ${item.weather[0].main}<p>
 						</li>
             `
 			container.innerHTML += ulData;
