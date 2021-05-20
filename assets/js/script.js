@@ -24,6 +24,7 @@ const weather = () => {
 		const renderData = item => {
 			let container = document.querySelector('.conatiner-list');
 			let ulData;
+			let city = document.querySelector('.city');
 			let convertTemp;
 			let iconCode = item.weather[0].icon;
 
@@ -34,11 +35,11 @@ const weather = () => {
 								<figure>
 										<img src="http://openweathermap.org/img/wn/${iconCode}@2x.png" alt="weather">
 								</figure>
-								<p>${inputval.toUpperCase()}<p>
 								<p>${convertTemp}&#8451, ${item.weather[0].main}<p>
 						</li>
             `
 			container.innerHTML += ulData;
+			city.textContent = inputval.toUpperCase();
 		}
 	}
 
